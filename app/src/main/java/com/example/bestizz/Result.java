@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.bestizz.databinding.ActivityResultBinding;
@@ -20,10 +21,11 @@ public class Result extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         // Récupération prénom + score
-        preferences = getSharedPreferences("QuizAppPrefs", MODE_PRIVATE);
+        preferences = getSharedPreferences("quizz_activity", MODE_PRIVATE);
         String userName = preferences.getString("username", "Joueur");
-        int score = getIntent().getIntExtra("score", 0);
+        Integer score = getIntent().getIntExtra("score", 0);
 
+        Log.d("Result", "Resultat passe = " + score);
         // Affichage dynamique
         binding.Name.setText("Bonjour " + userName);
         binding.Score.setText("Votre Score est : " + score + " /5");

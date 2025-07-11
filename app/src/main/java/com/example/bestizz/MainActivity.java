@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             editor.apply();
 
             // Aller vers la page Quizz
+            Log.i("MainActivity", "Click on play");
             Intent intent = new Intent(this, Quizz.class);
             startActivity(intent);
         });
