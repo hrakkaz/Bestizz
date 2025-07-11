@@ -47,9 +47,10 @@ public class Quizz extends AppCompatActivity {
 
 
             getSharedPreferences("quizz_activity", MODE_PRIVATE).edit().putInt("score", score).apply();
-            Log.d("MainActivity", "score final = " + score);
+            Log.d("Quizz", "score final = " + score);
 
             Intent intent = new Intent(this, Result.class);
+            intent.putExtra("score", score);
             startActivity(intent);
         });
     }
