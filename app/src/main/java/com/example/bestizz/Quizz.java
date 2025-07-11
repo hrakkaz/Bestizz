@@ -58,6 +58,7 @@ public class Quizz extends AppCompatActivity {
                 Log.d("Quizz", "Bonne réponse à la 5 : " + score);
             }
 
+
             getSharedPreferences("quizz_activity", MODE_PRIVATE).edit().putInt("score", score).apply();
             Log.d("MainActivity", "score final = " + score);
 

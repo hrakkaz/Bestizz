@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+
         binding.btnPlay.setOnClickListener(view -> {
             Log.i("MainActivity", "Click on play");
             Intent intent = new Intent(this, Quizz.class);
