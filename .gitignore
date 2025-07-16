@@ -1,0 +1,69 @@
+# Fichiers de build
+.gradle/
+app/build/
+
+# Configuration IDE
+.idea/
+
+# Fichiers générés par Gradle
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.properties
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration utilisateur
+*.iml
+local.properties
+
+# JetBrains / IntelliJ
+*.iws
+*.ipr
+
+# Android Studio
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Cache de lint
+lint/intermediates/
+lint/generated/
+
+# Sorties de tests
+test-output/
+
+# Fichiers générés pour data binding
+**/databinding/
+**/databinding-adapter/
+
+# Fichiers Gradle spécifiques
+/.gradle/
+/build/
+/app/.cxx/
+
+# NDK
+obj/
+
+# Jetpack Compose (s'il est utilisé)
+.compose/
+
+# Mac
+*.DS_Store
+
+# Windows
+ehthumbs.db

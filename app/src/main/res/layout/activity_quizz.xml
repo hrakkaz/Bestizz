@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quizz des Bestizzzzz"
+                android:textSize="24sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="56dp"/>
+
+        <!-- Description -->
+        <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ici, tu peux cocher toutes les réponses qui te semblent justes..."
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center_horizontal"/>
+
+        <!-- Text GO -->
+        <TextView
+                android:id="@+id/txtGo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C'est parti ! Amuse toi bien avec ces questions !"
+                android:layout_marginTop="28dp"
+                android:layout_gravity="center_horizontal"/>
+
+        <!-- Question 1 -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="44dp">
+
+            <TextView
+                    android:id="@+id/txtQuestion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Qui écoute le moins en cours ?" />
+
+            <RadioGroup
+                    android:id="@+id/radioGroupQuestion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <RadioButton android:id="@+id/chkElsa1" android:text="Elsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkMartin1" android:text="Martin" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkVictor1" android:text="Victor" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkHafsa1" android:text="Hafsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Question 2 -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="28dp">
+
+            <TextView
+                    android:id="@+id/txtQuestion2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Qui fera Architecture du Logiciel l'année prochaine ?" />
+
+            <CheckBox android:id="@+id/chkHafsa2" android:text="Hafsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <CheckBox android:id="@+id/chkVictor2" android:text="Victor" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <CheckBox android:id="@+id/chkStadiane2" android:text="Stadiane" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <CheckBox android:id="@+id/chkEnzo2" android:text="Enzo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Question 3 -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="28dp">
+
+            <TextView
+                    android:id="@+id/txtQuestion3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Qui est le plus susceptible d'arriver en retard ?" />
+
+            <RadioGroup
+                    android:id="@+id/radioGroupQuestion3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <RadioButton android:id="@+id/chkEnzo3" android:text="Enzo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkElsa3" android:text="Elsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkVictor3" android:text="Victor" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkMartin3" android:text="Martin" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Question 4 -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="28dp">
+
+            <TextView
+                    android:id="@+id/txtQuestion4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Qui serait le plus probable de manger pendant le cours ?" />
+
+            <RadioGroup
+                    android:id="@+id/radioGroupQuestion4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <RadioButton android:id="@+id/chkMartin4" android:text="Martin" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkStadiane4" android:text="Stadiane" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkElsa4" android:text="Elsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkEnzo4" android:text="Enzo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Question 5 -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="28dp">
+
+            <TextView
+                    android:id="@+id/txtQuestion5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Qui est le plus souvent resté après le cours pour discuter avec le prof ?" />
+
+            <RadioGroup
+                    android:id="@+id/radioGroupQuestion5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <RadioButton android:id="@+id/chkEnzo5" android:text="Enzo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkVictor5" android:text="Victor" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkHafsa5" android:text="Hafsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <RadioButton android:id="@+id/chkElsa5" android:text="Elsa" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Button Submit -->
+        <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voir les résultats"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>
