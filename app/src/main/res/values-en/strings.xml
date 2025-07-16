@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bestizz</string>
+    <string name="placeholder_greeting">Hello, %1$s!</string>
+    <string name="placeholder_score">Your score: %1$d/5</string>
+    <string name="placeholder_message">Personalized message here.</string>
+    <string name="replay">Play Again</string>
+    <string name="home">Home</string>
+    <string name="jouer">Play</string>
+    <string name="prenom">Your name</string>
+    <string name="quiz_des_bestizzzz">Bestizzzz Quiz</string>
+    <string name="submit">Submit</string>
+</resources>

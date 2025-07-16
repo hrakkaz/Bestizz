@@ -3,8 +3,9 @@ package com.example.bestizz;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-
 import android.util.Log;
+import android.widget.ImageView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.bestizz.databinding.ActivityResultBinding;
@@ -21,15 +22,41 @@ public class Result extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         // Récupération prénom + score
-        preferences = getSharedPreferences("quizz_activity", MODE_PRIVATE);
+        preferences = getSharedPreferences("QuizAppPrefs", MODE_PRIVATE);
         String userName = preferences.getString("username", "Joueur");
         Integer score = getIntent().getIntExtra("score", 0);
 
         Log.d("Result", "Resultat passe = " + score);
+
         // Affichage dynamique
         binding.Name.setText("Bonjour " + userName);
         binding.Score.setText("Votre Score est : " + score + " /5");
         binding.Message.setText(getMessage(score));
+
+        // Affichage de l’image selon le score
+        ImageView resultImage = binding.resultImage; // l’id doit exister dans activity_result.xml
+        switch (score) {
+            case 0:
+                resultImage.setImageResource(R.drawable.score0_img);
+                break;
+            case 1:
+                resultImage.setImageResource(R.drawable.score1_img);
+                break;
+            case 2:
+                resultImage.setImageResource(R.drawable.score2_img);
+                break;
+            case 3:
+                resultImage.setImageResource(R.drawable.score3_img);
+                break;
+            case 4:
+                resultImage.setImageResource(R.drawable.score4_img);
+                break;
+            case 5:
+                resultImage.setImageResource(R.drawable.score5_img);
+                break;
+            default:
+                break;
+        }
 
         // Bouton Rejouer
         binding.Replay.setOnClickListener(v -> {
@@ -44,6 +71,7 @@ public class Result extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+
     }
 
     private String getMessage(int score) {

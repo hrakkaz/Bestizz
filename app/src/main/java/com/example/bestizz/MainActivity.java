@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             SharedPreferences.Editor editor = preferences.edit();
             editor.putString("username", prenom);
             editor.apply();
+            Log.d("MainActivity", "Prénom sauvegardé : " + prenom);
+
 
             // Aller vers la page Quizz
             Log.i("MainActivity", "Click on play");
