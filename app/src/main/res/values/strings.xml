@@ -9,5 +9,35 @@
     <string name="prenom">Votre prénom</string>
     <string name="quiz_des_bestizzzz">Quiz des Bestizzzz</string>
     <string name="submit">Submit</string>
+    <string name="elsa">Elsa</string>
+    <string name="martin">Martin</string>
+    <string name="victor">Victor</string>
+    <string name="hafsa">Hafsa</string>
+    <string name="stadiane">Stadiane</string>
+    <string name="enzo">Enzo</string>
+    <string name="q1">1. Qui écoute le moins en cours ?</string>
+    <string name="q2">2. Qui fera Architecture du Logiciel l\'année
+        prochaine ?
+    </string>
+    <string name="q3">3. Qui est le plus susceptible d\'arriver en
+        retard ?
+    </string>
+    <string name="q4">4. Qui serait le plus probable de manger
+        pendant le cours ?
+    </string>
+    <string name="q5">5. Qui est le plus souvent
+        resté après le cours pour discuter avec le prof ?
+    </string>
+    <string name="results">Voir les résultats</string>
+    <string name="bravo">Bravo !</string>
+    <string name="r_sultat_image">Résultat image</string>
+
+    <string name="message_score_0">😵 0/5 ! Ouch… T’es sûr(e) que tu fais partie du groupe ? 😂</string>
+    <string name="message_score_1">😬 1/5 ! Hmm… On dirait que t’as un peu zappé les discussions de groupe !</string>
+    <string name="message_score_2">🤔 2/5 ! Tu nous connais un peu, mais y’a des trous dans ta mémoire 👀</string>
+    <string name="message_score_3">😎 3/5 ! Pas mal ! On voit que tu nous connais, mais y’a encore des secrets à découvrir 😉</string>
+    <string name="message_score_4">🔥 4/5 ! Woah, presque un(e) expert(e) en potins de besties ! T’es à deux doigts du titre de Bestie suprême 💖</string>
+    <string name="message_score_5">🏆 5/5 ! INCROYABLE ! Toi, c’est sûr, t’es le/la bestie officiel(le), tu connais tout sur tout 😍</string>
+    <string name="message_score_unknown">🤨 Score inconnu… Les besties valideront-ils ce score ? 👀</string>
 
 </resources>

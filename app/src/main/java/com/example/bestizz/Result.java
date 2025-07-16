@@ -29,8 +29,9 @@ public class Result extends AppCompatActivity {
         Log.d("Result", "Resultat passe = " + score);
 
         // Affichage dynamique
-        binding.Name.setText("Bonjour " + userName);
-        binding.Score.setText("Votre Score est : " + score + " /5");
+        String greeting = getString(R.string.placeholder_greeting, userName);
+        binding.Name.setText(greeting);
+        binding.Score.setText(getString(R.string.placeholder_score, score));
         binding.Message.setText(getMessage(score));
 
         // Affichage de l’image selon le score
@@ -77,19 +78,19 @@ public class Result extends AppCompatActivity {
     private String getMessage(int score) {
         switch (score) {
             case 0:
-                return "😵 0/5 ! Ouch... T’es sûr(e) que tu fais partie du groupe ? 😂";
+                return getString(R.string.message_score_0);
             case 1:
-                return "😬 1/5 ! Hmm… On dirait que t’as un peu zappé les discussions de groupe !";
+                return getString(R.string.message_score_1);
             case 2:
-                return "🤔 2/5 ! Tu nous connais un peu, mais y’a des trous dans ta mémoire 👀";
+                return getString(R.string.message_score_2);
             case 3:
-                return "😎 3/5 ! Pas mal ! On voit que tu nous connais, mais y’a encore des secrets à découvrir 😉";
+                return getString(R.string.message_score_3);
             case 4:
-                return "🔥 4/5 ! Woah, presque un(e) expert(e) en potins de besties ! T’es à deux doigts du titre de Bestie suprême 💖";
+                return getString(R.string.message_score_4);
             case 5:
-                return "🏆 5/5 ! INCROYABLE ! Toi, c’est sûr, t’es le/la bestie officiel(le), tu connais tout sur tout 😍";
+                return getString(R.string.message_score_5);
             default:
-                return "🤨 Score inconnu… Les besties valideront-ils ce score ? 👀";
+                return getString(R.string.message_score_unknown);
         }
     }
 

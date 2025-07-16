@@ -14,7 +14,7 @@
                 android:id="@+id/txtQuestion1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. Qui écoute le moins en cours ?" />
+                android:text="@string/q1" />
 
         <RadioGroup
                 android:id="@+id/radioGroupQuestion1"
@@ -26,25 +26,25 @@
                     android:id="@+id/chkElsa1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Elsa" />
+                    android:text="@string/elsa" />
 
             <RadioButton
                     android:id="@+id/chkMartin1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Martin" />
+                    android:text="@string/martin" />
 
             <RadioButton
                     android:id="@+id/chkVictor1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Victor" />
+                    android:text="@string/victor" />
 
             <RadioButton
                     android:id="@+id/chkHafsa1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hafsa" />
+                    android:text="@string/hafsa" />
         </RadioGroup>
 
         <!-- Question 2 -->
@@ -53,31 +53,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
-                android:text="2. Qui fera Architecture du Logiciel l'année prochaine ?" />
+                android:text="@string/q2" />
 
         <CheckBox
                 android:id="@+id/chkHafsa2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hafsa" />
+                android:text="@string/hafsa" />
 
         <CheckBox
                 android:id="@+id/chkVictor2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Victor" />
+                android:text="@string/victor" />
 
         <CheckBox
                 android:id="@+id/chkStadiane2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Stadiane" />
+                android:text="@string/stadiane" />
 
         <CheckBox
                 android:id="@+id/chkEnzo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Enzo" />
+                android:text="@string/enzo" />
 
         <!-- Question 3 -->
         <TextView
@@ -85,7 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
-                android:text="3. Qui est le plus susceptible d'arriver en retard ?" />
+                android:text="@string/q3" />
 
         <RadioGroup
                 android:id="@+id/radioGroupQuestion3"
@@ -97,25 +97,25 @@
                     android:id="@+id/chkEnzo3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Enzo" />
+                    android:text="@string/enzo" />
 
             <RadioButton
                     android:id="@+id/chkElsa3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Elsa" />
+                    android:text="@string/elsa" />
 
             <RadioButton
                     android:id="@+id/chkVictor3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Victor" />
+                    android:text="@string/victor" />
 
             <RadioButton
                     android:id="@+id/chkMartin3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Martin" />
+                    android:text="@string/martin" />
         </RadioGroup>
 
         <!-- Question 4 -->
@@ -124,7 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
-                android:text="4. Qui serait le plus probable de manger pendant le cours ?" />
+                android:text="@string/q4" />
 
         <RadioGroup
                 android:id="@+id/radioGroupQuestion4"
@@ -136,25 +136,25 @@
                     android:id="@+id/chkMartin4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Martin" />
+                    android:text="@string/martin" />
 
             <RadioButton
                     android:id="@+id/chkStadiane4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Stadiane" />
+                    android:text="@string/stadiane" />
 
             <RadioButton
                     android:id="@+id/chkElsa4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Elsa" />
+                    android:text="@string/elsa" />
 
             <RadioButton
                     android:id="@+id/chkEnzo4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Enzo" />
+                    android:text="@string/enzo" />
         </RadioGroup>
 
         <!-- Question 5 -->
@@ -163,7 +163,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
-                android:text="5. Qui est le plus souvent resté après le cours pour discuter avec le prof ?" />
+                android:text="@string/q5" />
 
         <RadioGroup
                 android:id="@+id/radioGroupQuestion5"
@@ -175,25 +175,25 @@
                     android:id="@+id/chkEnzo5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Enzo" />
+                    android:text="@string/enzo" />
 
             <RadioButton
                     android:id="@+id/chkVictor5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Victor" />
+                    android:text="@string/victor" />
 
             <RadioButton
                     android:id="@+id/chkHafsa5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hafsa" />
+                    android:text="@string/hafsa" />
 
             <RadioButton
                     android:id="@+id/chkElsa5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Elsa" />
+                    android:text="@string/elsa" />
         </RadioGroup>
 
         <!-- Button Submit -->
@@ -204,6 +204,6 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginBottom="32dp"
                 android:layout_gravity="center_horizontal"
-                android:text="Voir les résultats" />
+                android:text="@string/results" />
     </LinearLayout>
 </ScrollView>

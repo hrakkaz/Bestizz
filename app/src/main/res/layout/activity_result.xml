@@ -9,8 +9,8 @@
 
     <LinearLayout
             android:id="@+id/centerGroup"
-            android:layout_width="329dp"
-            android:layout_height="546dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="24dp"
             app:layout_constraintTop_toTopOf="parent"
@@ -22,9 +22,9 @@
 
         <TextView
                 android:id="@+id/Name"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bonjour 'Prénom'"
+                android:text="@string/placeholder_greeting"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_gravity="center_horizontal"
@@ -32,18 +32,18 @@
 
         <TextView
                 android:id="@+id/Score"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Votre Score est :"
+                android:text="@string/placeholder_score"
                 android:textSize="18sp"
                 android:layout_gravity="center_horizontal"
                 android:paddingBottom="24dp"/>
 
         <TextView
                 android:id="@+id/Message"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bravo !"
+                android:text="@string/bravo"
                 android:textSize="18sp"
                 android:layout_gravity="center_horizontal"
                 android:paddingBottom="32dp"/>
@@ -54,11 +54,11 @@
                 android:layout_height="200dp"
                 android:layout_marginTop="16dp"
                 android:layout_gravity="center"
-                android:contentDescription="Résultat image"
+                android:contentDescription="@string/r_sultat_image"
                 android:scaleType="fitCenter"/>
 
         <LinearLayout
-                android:layout_width="wrap_content"
+                style="?android:attr/buttonBarStyle" android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center"
@@ -66,20 +66,20 @@
 
             <Button
                     android:id="@+id/Replay"
-                    android:layout_width="wrap_content"
+                    style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:minWidth="120dp"
                     android:padding="12dp"
-                    android:text="Rejouer"
+                    android:text="@string/replay"
                     android:layout_marginEnd="32dp"/>
 
             <Button
                     android:id="@+id/HomePage"
-                    android:layout_width="wrap_content"
+                    style="?android:attr/buttonBarButtonStyle" android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:minWidth="120dp"
                     android:padding="12dp"
-                    android:text="Accueil"/>
+                    android:text="@string/home"/>
 
         </LinearLayout>
 

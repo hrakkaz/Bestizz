@@ -9,4 +9,31 @@
     <string name="prenom">Your name</string>
     <string name="quiz_des_bestizzzz">Bestizzzz Quiz</string>
     <string name="submit">Submit</string>
+    <string name="elsa">Elsa</string>
+    <string name="martin">Martin</string>
+    <string name="victor">Victor</string>
+    <string name="hafsa">Hafsa</string>
+    <string name="stadiane">Stadiane</string>
+    <string name="enzo">Enzo</string>
+    <string name="q1">1. Who listens the least in class ?</string>
+    <string name="q2">2. Who will take Software Architecture next year ?
+    </string>
+    <string name="q3">3. Who is most likely to arrive late ?
+    </string>
+    <string name="q4">4. Who is most likely to eat during class ?
+    </string>
+    <string name="q5">5. Who most often stayed after class to talk with the teacher ?
+    </string>
+    <string name="results">See the results</string>
+    <string name="bravo">Congrats !</string>
+    <string name="r_sultat_image">Image result</string>
+
+    <string name="message_score_0">😵 0/5! Ouch… Are you sure you\'re even part of the group? 😂</string>
+    <string name="message_score_1">😬 1/5! Hmm… Looks like you kinda missed out on those group convos!</string>
+    <string name="message_score_2">🤔 2/5! You know us a little, but there are some memory gaps 👀</string>
+    <string name="message_score_3">😎 3/5! Not bad! You know us pretty well, but there are still secrets to uncover 😉</string>
+    <string name="message_score_4">🔥 4/5! Woah, almost a bestie gossip expert! You\'re this close to the Supreme Bestie title 💖</string>
+    <string name="message_score_5">🏆 5/5! AMAZING! You’re definitely the official bestie — you know everything! 😍</string>
+    <string name="message_score_unknown">🤨 Unknown score… Will the besties approve this result? 👀</string>
+
 </resources>

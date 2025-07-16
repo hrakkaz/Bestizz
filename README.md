@@ -1,37 +1,33 @@
-# Bestizz - Application de Quiz Android
+# Bestizz - Application de Quiz Android 🎯📱
 
-**Bestizz** est une application Android développée en Java, qui permet aux utilisateurs de tester leurs connaissances grâce à une série de questions à choix multiples. Ce projet a été réalisé dans le cadre d’un travail étudiant.
+**Auteures** : Elsa Letellier & Hafsa Rakkaz  
+**Formation** : ESGI – Cours "Introduction au développement Android"  
+**Encadrant** : Nathaniel Vaur Henel
 
-## Fonctionnalités
+---
 
-- Interface intuitive et responsive
-- Questions à choix multiples
-- Affichage du score à la fin du quiz
-- Possibilité de rejouer le quiz
+## 📌 Présentation
 
-## Bonus
-- Deuxième langue anglais
-- Image selon le score obtenu
-- Background music 
+**Bestizz** est une application Android de quiz développée dans le cadre du cours de développement mobile. Le but est de proposer une expérience ludique, interactive et multilingue autour de 5 questions à choix multiples. L'utilisateur renseigne son prénom, répond aux questions, et reçoit un score ainsi qu’un message personnalisé selon sa performance.
 
-## Structure du projet
+L’application inclut également des illustrations et une bande sonore pour rendre l'expérience plus immersive. Elle est disponible en **français** et **anglais**.
 
-Bestizz/
-├── app/
-│ ├── src/
-│ │ └── main/
-│ │ ├── java/com/example/bestizz/
-│ │ │ ├── MainActivity.java # Écran d'accueil
-│ │ │ ├── QuizActivity.java # Logique du quiz
-│ │ │ ├── ResultActivity.java # Affichage des résultats
-│ │ └── res/
-│ │ ├── layout/ # Fichiers XML pour les interfaces
-│ │ └── values/ # Ressources : chaînes, styles, couleurs
-│ ├── build.gradle.kts
-│ └── proguard-rules.pro
-├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
+---
+
+## 🎮 Fonctionnalités
+
+- Écran d’accueil avec saisie du prénom
+- Quiz de 5 questions à choix multiples
+- Calcul automatique du score
+- Écran de résultat avec image, score et message personnalisé
+- Navigation fluide entre les écrans
+- Prise en charge du **multilingue (FR/EN)**
+- **Illustrations** dynamiques selon le score
+- **Musique de fond**
+- Sauvegarde du prénom avec `SharedPreferences`
+- Relancer ou recommencer une partie
+
+---
 
 ## ⚙️ Prérequis
 
@@ -39,15 +35,30 @@ Bestizz/
 - JDK 8 ou plus récent
 - SDK Android API 24 minimum (Android 7.0)
 
-🛠️ Technologies utilisées
+---
 
-Java
-Android SDK
-XML (UI)
+## 🧰 Technologies utilisées
 
+- **Langage** : Java
+- **Environnement** : Android Studio
+- **UI** : XML avec ViewBinding
+- **Stockage local** : SharedPreferences
+- **Audio** : MediaPlayer
+- **Ressources** : fichiers XML (`strings.xml`, `colors.xml`, images `drawable/`, sons `raw/`)
 
-👥 Auteurs
-Elsa Letellier 
-Hafsa Rakkaz 
+---
 
+## 📦 Structure des fichiers
 
+```text
+├── java/
+│   └── com.example.bestizz/
+│       ├── MainActivity.java     # Écran d’accueil
+│       ├── Quizz.java            # Écran du quiz
+│       └── Result.java           # Écran de résultats
+├── res/
+│   ├── layout/           # Fichiers XML des écrans
+│   ├── values/           # Strings fr
+│   ├── values-en/        # Strings en
+│   ├── drawable/         # Illustrations selon le score
+│   └── raw/              # Musique de fond
